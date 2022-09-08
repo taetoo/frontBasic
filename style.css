@@ -1,0 +1,108 @@
+:root {
+    --text-color: white;
+    --background-color: #263343;
+    --accent-color: coral;
+}
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.navbar {
+    /* 한줄에 나란히 설정 */
+    display: flex;
+    /* 일정한 간격에 맞춰서 박스를 정렬 */
+    justify-content: space-between;
+    /* 수직 정렬 설정 */
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 8px 12px
+}
+.navbar_logo {
+    font-size: 24px;
+    color: white;
+}
+.navbar_logo i {
+    color: var(--accent-color);
+}
+
+.navbar_menu {
+    display: flex;
+    /* 리스트 앞에 닷 없애기 */
+    list-style: none;
+    padding-left: 0;
+}
+.navbar_menu li {
+    /* 여기서 패딩으로 넣는 이유는 박스 안에 넣어서 클릭할 수 있는 영역이 커진다 */
+    padding: 8px 12px; 
+
+}
+.navbar_menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+
+.navbar_links {
+    display: flex;
+    list-style: none;
+    color: var(--text-color);
+    padding-left: 0;
+    
+}
+.navbar_links li {
+    padding: 8px 12px;
+    
+}
+.navbar_links li:hover {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+
+
+}
+
+
+.navbar_toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: var(--accent-color);
+
+}
+/* 반응형 */
+@media screen and (max-width: 758px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+    .navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar_links {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar_toggleBtn {
+        display: block;
+    }
+
+    .navbar_menu.active,
+    .navbar_links.active {
+        display: flex;
+    }
+
+}
