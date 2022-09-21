@@ -309,73 +309,73 @@ footer {
 /* 한글 폰트 */
 @font-face {
     font-family: nanum-gothic;
-    src: url("./fonts/nanum-gothic/NanumGothic.otf");
+    src: url("../fonts/nanum-gothic/NanumGothic.otf");
     unicode-range: U+AC00-D7A3;
 }
 
 @font-face {
     font-family: nanum-gothicBold;
-    src: url("./fonts/nanum-gothic/NanumGothicBold.otf");
+    src: url("../fonts/nanum-gothic/NanumGothicBold.otf");
     unicode-range: U+AC00-D7A3;
 }
 
 @font-face {
     font-family: nanum-gothicExtraBold;
-    src: url("./fonts/nanum-gothic/NanumGothicExtraBold.otf");
+    src: url("../fonts/nanum-gothic/NanumGothicExtraBold.otf");
     unicode-range: U+AC00-D7A3;
 }
 
 @font-face {
     font-family: nanum-gothicLight;
-    src: url("./fonts/nanum-gothic/NanumGothicLight.otf");
+    src: url("../fonts/nanum-gothic/NanumGothicLight.otf");
     unicode-range: U+AC00-D7A3;
 }
 
 /* 영어 폰트 */
 @font-face {
     font-family: capitana-bold;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-bold.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-bold.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-semibold;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-semibold.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-semibold.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-extrabold;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-extrabold.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-extrabold.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-extralight;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-extralight.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-extralight.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-light;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-light.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-light.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-medium;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-medium.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-medium.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-regular;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-regular.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-regular.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
     font-family: capitana-thin;
-    src: url("./fonts/capitana-fonts/Fontspring-DEMO-capitana-thin.otf");
+    src: url("../fonts/capitana-fonts/Fontspring-DEMO-capitana-thin.otf");
     unicode-range: U+0041-005A, U+0061-007A;
 }
