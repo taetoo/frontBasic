@@ -2,6 +2,7 @@
     /* --text-color: #F04B24; */
     --text-color: #FFFFFF;
     --background-color: #FF4711;
+    /* --backgroundNav-color: rgb(100, 28, 7, 0.3); */
     --accent-color: #f2d8d8;
     --footer-color: darkgray;
     --hover-color: rgb(242, 216, 216, 0.5);
@@ -38,7 +39,7 @@ a {
     justify-content: space-between;
     /* 수직 정렬 설정 */
     align-items: center;
-    background-color: var(--background-color);
+    /* background-color: var(--backgroundNav-color); */
     z-index: 10;
     height: 60px;
     position: fixed;
