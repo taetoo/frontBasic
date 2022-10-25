@@ -38,7 +38,7 @@ a {
     justify-content: space-between;
     /* 수직 정렬 설정 */
     align-items: center;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     z-index: 10;
     height: 60px;
     position: fixed;
@@ -127,22 +127,29 @@ a {
     color: var(--hover-color);
 }
 
-.CS-main {
+
+.CS_top {
     background-color: var(--background-color);
 }
-.imageMain {
-    padding-top: 71px;
-    padding-bottom: 40px;
-    padding-left: 9px;
+.imageTop {
+    padding-top: 191px;
+    padding-bottom: 70px;
     margin: 0 auto;
     display: block;
     width: 80%;
     background-color: var(--background-color);
 }
-
-
-
-
+.CS_bottom {
+    background-color: var(--background-color);
+}
+.imageBottom {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    background-color: var(--background-color);
+}
 
 .div_test {
     font-size: 40px;
